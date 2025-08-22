@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jual Beli Akun Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00ffe0;
+      --secondary: #00bfa5;
+      --accent: #e74c3c;
+      --bg-dark: linear-gradient(145deg, #1a1a1d, #0e0e10);
+      --text-light: #e0e0e0;
+    }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(20, 20, 20, 0.85);
+      color: var(--primary);
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(0, 255, 224, 0.2);
+    }
+    .account-card {
+      background: rgba(15, 15, 17, 0.9);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(0, 255, 224, 0.1);
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .account-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 255, 224, 0.3);
+    }
+    .price {
+      color: var(--primary);
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 10px 0;
+      text-shadow: 0 0 8px rgba(0, 255, 224, 0.6);
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background: var(--secondary);
+      color: white !important;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .whatsapp-btn:hover {
+      background: var(--primary);
+      box-shadow: 0 0 15px var(--primary);
+      transform: translateY(-5px);
+    }
+    .note-box {
+      background: rgba(255, 249, 230, 0.05);
+      border-left: 4px solid var(--primary);
+      padding: 1.5rem;
+      margin: 2rem 0;
+      box-shadow: 0 0 10px rgba(0, 255, 224, 0.1);
+    }
+    .note-box strong {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header" data-aos="fade-down">
+    <h1>🛒 JUAL BELI AKUN GAME</h1>
+    <p>Akun game terpercaya, siap pakai, dan harga terjangkau!</p>
+  </div>
+
+  <div class="account-card" data-aos="fade-up">
+    <h2>🎮 Ready Stok Akun Mobile Legends (Mythic)</h2>
+    <ul>
+      <li>Level 30+</li>
+      <li>Skin Epic: 10+</li>
+      <li>Hero: 80+</li>
+    </ul>
+    <div class="price">Rp100.000 - Rp1.000.000</div>
+    <a class="whatsapp-btn" href="https://drive.google.com/drive/folders/1-9WWqDdn1yMJoPeJLCve3nHjDGh3IL8K" target="_blank">Cek Akun</a>
+  </div>
+
+  <div class="account-card" data-aos="fade-up" data-aos-delay="100">
+    <h2>🔫 Ready Stok Akun Free Fire (Diamond + Skin Bundle)</h2>
+    <ul>
+      <li>Level 50</li>
+      <li>Diamond aktif</li>
+      <li>Rare Bundle: 5+</li>
+    </ul>
+    <div class="price">Rp100.000 - Rp1.000.000</div>
+    <a class="whatsapp-btn" href="https://drive.google.com/drive/folders/1-0ERbtMsrDUtFVav6zHxx7X6mK-ch7KE" target="_blank">Cek Akun</a>
+  </div>
+     
+  <div class="account-card" data-aos="fade-up" data-aos-delay="200">
+    <h2>⚽ Ready Stok Akun FC Mobile (Overall 110+)</h2>
+    <ul>
+      <li>Squad aktif dengan pemain ikonik</li>
+      <li>Coin: 2.000.000+</li>
+      <li>Event player tersedia</li>
+    </ul>
+    <div class="price">Rp70.000 - Rp850.000</div>
+    <a class="whatsapp-btn" href="https://drive.google.com/drive/folders/1-8FAmlU39jbJfD9lk2j932miUyaHW4zX" target="_blank">Cek Akun</a>
+  </div>
+
+  <div class="account-card" data-aos="fade-up" data-aos-delay="300">
+    <h2>🧱 Akun Minecraft Premium (Java + Bedrock)</h2>
+    <ul>
+      <li>Login via Microsoft</li>
+      <li>Bisa main server Hypixel</li>
+      <li>No ban history</li>
+    </ul>
+    <div class="price">Rp250.000</div>
+    <a class="whatsapp-btn" href="https://wa.me/6285768163579?text=Halo%20admin,%20saya%20tertarik%20membeli%20akun%20Minecraft%20Premium.">Beli via WhatsApp</a>
+  </div>
+
+  <div class="note-box" data-aos="zoom-in-up">
+    <strong>Catatan:</strong>
+    <p>Semua akun dijamin aman dan legal. Transaksi langsung via WhatsApp. Setelah pembayaran, data akun akan langsung dikirim. Silakan hubungi admin untuk detail dan stok terbaru.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+
+</body>
+</html>
